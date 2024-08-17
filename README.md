@@ -1,16 +1,33 @@
-# task_management
+# Task Management App
 
-A new Flutter project.
+A Flutter-based Task Management application that allows users to manage their tasks efficiently. The app supports task creation, editing, deletion, and marking tasks as complete. It includes features such as Firebase authentication, state management with the Bloc pattern, and offline data persistence using SQLite.
+
+## Features
+
+- User Authentication with Firebase (Email/Password and Google Sign-In)
+- Task management: Add, Edit, Delete, and Mark tasks as complete
+- Offline support with SQLite
+- Sync tasks with Firebase Firestore when online
+- Responsive UI design
+- State management using Bloc pattern
+
+## Screenshots
+
+Include some screenshots of the app here.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+### Prerequisites
 
-A few resources to get you started if this is your first Flutter project:
+Before you begin, ensure you have the following installed:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- [Flutter SDK](https://flutter.dev/docs/get-started/install)
+- [Dart SDK](https://dart.dev/get-dart)
+- [Android Studio or Visual Studio Code](https://flutter.dev/docs/get-started/editor)
+- [Firebase CLI](https://firebase.google.com/docs/cli)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/task_management.git

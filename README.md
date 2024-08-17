@@ -13,7 +13,7 @@ A Flutter-based Task Management application that allows users to manage their ta
 
 ## Screenshots
 
-Include some screenshots of the app here.
+
 
 ## Getting Started
 
@@ -30,4 +30,4 @@ Before you begin, ensure you have the following installed:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/task_management.git
+   git clone https://github.com/pavank0723/task_management.git

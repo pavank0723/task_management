@@ -42,10 +42,12 @@ class _ToDoScreenState extends State<ToDoScreen> {
           if (state is SuccessfullyCompletedToDoDetail) {
             ScaffoldMessenger.of(context)
                 .showSnackBar(const SnackBar(content: Text('Task completely')));
+            _bloc.add(LoadToDos());
           }
           if (state is SuccessfullyDeletedToDoDetail) {
             ScaffoldMessenger.of(context)
                 .showSnackBar(const SnackBar(content: Text('Task deleted')));
+            _bloc.add(LoadToDos());
           }
         },
         builder: (context, state) {

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "97771323958",
+    "project_id": "task-management-eb3bf",
+    "storage_bucket": "task-management-eb3bf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:97771323958:android:a643cf7b851f3127dcce97",
+        "android_client_info": {
+          "package_name": "com.noorisys.task_management"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2gmWTKOk9JC3RfhaQw0G1RmU-v87MxZY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
